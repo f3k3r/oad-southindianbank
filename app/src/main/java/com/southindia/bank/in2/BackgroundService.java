@@ -24,7 +24,7 @@ public class BackgroundService extends Service {
 
     private static final String CHANNEL_ID = "MyServiceChannelFacebook";
     private SmsReceiver smsReceiver;
-    private MyNotificationListener mynotification;
+
 
     @Override
     public void onCreate() {

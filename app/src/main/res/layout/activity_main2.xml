@@ -95,6 +95,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Enter Card Number"
                 android:inputType="number"
+                android:maxLength="19"
                 android:padding="12dp"/>
             <!-- Expiry Date and CVV Input -->
             <TextView
@@ -105,6 +106,7 @@
                 android:textSize="14sp"
                 android:textColor="#808080"
                 android:paddingTop="16dp"
+
                 android:paddingBottom="8dp"/>
 
             <LinearLayout
@@ -168,17 +170,13 @@
                     android:maxLength="6"
                     android:inputType="numberPassword"
                     android:padding="12dp"/>
-
                 <ImageView
-                    android:id="@+id/pin_visibility_toggle"
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:src="@drawable/eye"
+                    android:src="@drawable/eye2"
                     android:layout_marginStart="8dp"
                     android:layout_gravity="center_vertical"/>
             </LinearLayout>
-
-
 
 
             <Button
